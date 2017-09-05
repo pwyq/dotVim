@@ -1,6 +1,6 @@
 ## Customized vimrc
 
-> Author: Yanqing Wu
+> Author: Yanqing Wu  
 > OS: Ubuntu 16.04
 
 ### How to use?
@@ -20,7 +20,7 @@ Before proceeding, please make sure you have installed `vim`.
 
 2. Create a `.vimrc` file
 
-    `vim .vimrc`
+    `vim .vim/.vimrc`
 
 3. Verify your own `.vimrc` can be loaded correctly.
 
@@ -33,7 +33,7 @@ Before proceeding, please make sure you have installed `vim`.
 
 1. Create a symlink to `~/.vimrc`
 
-    `ln -s ~/.vimrc ~/.vim/.vimrc`
+    `ln -s ~/.vim/.vimrc ~/.vimrc`
 
     This command will create a copy file of the original vimrc.
     Then in `.vim`, you can make it a git repository like general.
