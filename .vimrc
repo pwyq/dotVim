@@ -1,9 +1,13 @@
 " File              : .vimrc
-" Author            : meet.yanqing.wu@gmail.com
+" Author            : Yanqing Wu <meet.yanqing.wu@gmail.com>
 " Date              : 06.09.2017
 " Last Modified Date: 06.09.2017
-" Last Modified By  : meet.yanqing.wu@gmail.com
-" Author: Yanqing Wu <meet.yanqing.wu@gmail.com>
+" Last Modified By  : Yanqing Wu <meet.yanqing.wu@gmail.com>
+" File              : .vimrc
+" Author            : Yanqing Wu <meet.yanqing.wu@gmail.com>
+" Date              : 06.09.2017
+" Last Modified Date: 06.09.2017
+" Last Modified By  : Yanqing Wu <meet.yanqing.wu@gmail.com>
 " Personal Customized vimrc
 
 set nocompatible              " be iMproved, required
@@ -59,6 +63,12 @@ map <F4> :AddHeader<CR>
 
 " ---------------------------------------------------------------------
 
+:set number " enable line number displaying.
+
+" remap ESC key to jj
+inoremap jj <ESC>
+let mapleader = "," " remap `leader` key to `,` 
+
 func! WordProcessorMode()
     setlocal formatoptions=t1
     setlocal textwidth=80
@@ -70,31 +80,31 @@ func! WordProcessorMode()
 endfu
 com! WP call WordProcessorMode()
 
-ino ( ()<left>
-ino [ []<left>
 ino { {}<left>
 ino {<CR> {<CR>}<ESC>O
-ino {;<CR> {<CR>};<ESC>O
+ino {;<CR> {<CR>};<ESC>O 
 
-:set number " enable line number displaying.
-
-" remap ESC key to jj
-inoremap jj <ESC>
-
-let mapleader = "," " remap `leader` key to `,`
-
-" skip over closing parenthesis with <TAB>
-inoremap <expr> <Tab> SkipClosingParentheses()
-
-" Skip closing parentheses with Tab key
-function! SkipClosingParentheses()
+" ---------------------------------------------------------------------
+" Auto Fill Brackets:
+func! AutoPair(open, close)
     let line = getline('.')
-    let current_char = line[col('.')-1]
-
-    "Ignore EOL
-    if col('.') == col('$')
-        return "\t"
-    end
-
-    return stridx(']})', current_char)==-1 ? "\t" : "\<Right>"
-endfunction
+    if col('.') > strlen(line) || index([' ', ']', ')', '}'], line[col('.') - 1]) > 0
+        return a:open . a:close . "\<ESC>i"
+    else
+        return a:open
+    endif
+endfunc
+func! ClosePair(char)
+    return (getline('.')[col('.') - 1] == a:char ? "\<Right>" : a:char)
+endfunc
+inoremap <expr> ( AutoPair('(', ')')
+inoremap <expr> ) ClosePair(')')
+inoremap <expr> [ AutoPair('[', ']')
+inoremap <expr> ] ClosePair(']')
+inoremap <expr> { AutoPair('{', '}')
+inoremap <expr> } ClosePair('}')
+inoremap " ""<Left>
+inoremap ' ''<Left>
+au Filetype mkd,tex,txt,lrc silent! iunmap '
+au Filetype vim silent! iunmap "
+au Filetype vim silent! iunmap ""
