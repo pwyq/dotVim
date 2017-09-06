@@ -9,6 +9,7 @@ Note:
 
 ` ~/usr/share/vim/vimrc` is the system default vimrc.
 `~/etc/vim/vimrc` is the symlink of the above vimrc, which is just the same file.
+`.netrwhist` is a history file which maintains all modifications of vim plugin/script
 
 If you do not wish to use one vimrc globally, you should create a new vimrc file.
 Before proceeding, please make sure you have installed `vim`.
@@ -37,3 +38,25 @@ Before proceeding, please make sure you have installed `vim`.
 
     This command will create a copy file of the original vimrc.
     Then in `.vim`, you can make it a git repository like general.
+
+### Use A Plugin Manager
+
+[pathogen](https://github.com/tpope/vim-pathogen)
+    
+> A runtime path manipulation tool  
+> pros:  
+> - Easy to install plugins (All you need is to put the plugin in `bundle` folder)  
+> - Only one line needed to add to `.vimrc`  
+> cons:  
+> - Need to update plugins manually
+
+[Vundle](https://github.com/VundleVim/Vundle.vim)
+
+> A plugin manager (Inspired by pathogen)  
+> pros:  
+> update configured plugins automatically  
+> keep track of configure plugins in `.vimrc`  
+
+[vim-plug](https://github.com/junegunn/vim-plug)
+
+> A plugin manager (I haven't use it, but this one seems older than other two)
