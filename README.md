@@ -7,8 +7,8 @@
 
 Note:
 
-` ~/usr/share/vim/vimrc` is the system default vimrc.
-`~/etc/vim/vimrc` is the symlink of the above vimrc, which is just the same file.
+` ~/usr/share/vim/vimrc` is the system default vimrc.  
+`~/etc/vim/vimrc` is the symlink of the above vimrc, which is just the same file.  
 `.netrwhist` is a history file which maintains all modifications of vim plugin/script
 
 If you do not wish to use one vimrc globally, you should create a new vimrc file.

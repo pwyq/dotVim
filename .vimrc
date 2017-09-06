@@ -1,3 +1,8 @@
+" File              : .vimrc
+" Author            : meet.yanqing.wu@gmail.com
+" Date              : 06.09.2017
+" Last Modified Date: 06.09.2017
+" Last Modified By  : meet.yanqing.wu@gmail.com
 " Author: Yanqing Wu <meet.yanqing.wu@gmail.com>
 " Personal Customized vimrc
 
@@ -49,7 +54,7 @@ filetype plugin indent on    " required
 " ---------------------------------------------------------------------
 " Add bried author info for `alpertuna/vim-header`
 let g:header_field_author = 'Yanqing Wu'
-let g:header_field_author = 'meet.yanqing.wu@gmail.com'
+let g:header_field_author_email = 'meet.yanqing.wu@gmail.com'
 map <F4> :AddHeader<CR>
 
 " ---------------------------------------------------------------------
