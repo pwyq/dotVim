@@ -1,0 +1,57 @@
+## Vim
+
+In terminal, `vimtutor` for the default VIM Tutor
+
+0 - to the start of a line
+$ - to the end of a line
+
+d - delete operator
+w - until the start of the enxt word, EXCLUDING its first character
+e - to the end of the current word, INCLUDING the last character
+$ - to the end of the line, INCLUDING the last character 
+
+2w - to the start of next 2 word
+
+2dd - delete two lines
+
+d2w - delete 2 words
+
+1,4d - delete line 1 to 4
+
+u - undo
+U - undo all modification in a line
+Ctrl + r - redo
+
+r+character - replace the character at the cursor with the new character
+R - enter Replace mode at the cursor
+
+ce - delete till the end of word and enter Insert mode
+c$ - delete till the end of the line
+
+number + G - go to the line (same as `:` + number + <Enter>)
+	- number + gg (same function)
+
+n - next occurrence of word (same as *)
+N - previous occurrence of word (same as #)
+
+Ctrl+o - go back to last position
+Ctrl+i - go to the next position
+
+% - for finding matching brackets
+
+:s/old-word/new-word - substitute the first occurrence of the old-word with the new-word in a line
+:s/old-word/new-word/g - substitute all occurrence in a line (g - globally)
+
+:#,#s/old/new/g - where #,# are the line nubmers of the range of lines where the substitution is to be done
+:%s/old/new/g - to change every occurrence in the whole line.
+:%s/old/new/gc - to find every occurrence in the wholeline, with a prompt whether to substitute or not.
+
+o - open a line below a cursor and place you in Insert mode
+O - open a line after a cursor and place you in Insert mode
+
+a - append text after the cursor
+
+:set ic (ignore case in searching (case-insensitive))
+:set noic (disable `ic`)
+:set hls is (for highlighting search)
+:nohlsearch (disable highlight search)

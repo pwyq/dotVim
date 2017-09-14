@@ -1,5 +1,10 @@
 " File              : .vimrc
 " Author            : Yanqing Wu <meet.yanqing.wu@gmail.com>
+" Date              : 11.09.2017
+" Last Modified Date: 11.09.2017
+" Last Modified By  : Yanqing Wu <meet.yanqing.wu@gmail.com>
+" File              : .vimrc
+" Author            : Yanqing Wu <meet.yanqing.wu@gmail.com>
 " Date              : 06.09.2017
 " Last Modified Date: 06.09.2017
 " Last Modified By  : Yanqing Wu <meet.yanqing.wu@gmail.com>
@@ -103,8 +108,8 @@ inoremap <expr> [ AutoPair('[', ']')
 inoremap <expr> ] ClosePair(']')
 inoremap <expr> { AutoPair('{', '}')
 inoremap <expr> } ClosePair('}')
-inoremap " ""<Left>
-inoremap ' ''<Left>
+" inoremap " ""<Left>
+" inoremap ' ''<Left>
 au Filetype mkd,tex,txt,lrc silent! iunmap '
 au Filetype vim silent! iunmap "
 au Filetype vim silent! iunmap ""
