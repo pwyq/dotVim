@@ -1,7 +1,7 @@
 ## Customized vimrc
 
 > Author: Yanqing Wu  
-> OS: Ubuntu 16.04 & Arch Linux
+> Tested OS: Ubuntu 16.04 & Arch Linux
 
 ### How to use (Arch Linux)?
 1. download this repo. I downloaded to `~/github/`
@@ -12,7 +12,7 @@
     ln -s ~/github/dotVim/.vimrc .
     ```
 
-3. download `Vundle` plugin manager, then change the path to `Vundle.vim` in `.vimrc` file
+3. download `Vundle` plugin manager (link is available at the bottom), then change the path to `Vundle.vim` in `.vimrc` file
 
 ### How to use (Ubuntu)?
 
