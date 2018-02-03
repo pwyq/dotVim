@@ -16,7 +16,7 @@ Before proceeding, please make sure you have installed `vim`.
 
 1. Create `.vim` folder in your HOME repository
 
-    `cd $HOME`
+    `cd $HOME`  
     `mkdir .vim`
 
 2. Create a `.vimrc` file
@@ -25,7 +25,7 @@ Before proceeding, please make sure you have installed `vim`.
 
 3. Verify your own `.vimrc` can be loaded correctly.
 
-    Add `echo "MY VIMRC LOADED" command to the newly created `.vimrc` 
+    Add `echo "MY VIMRC LOADED"` command to the newly created `.vimrc` 
     Then, run vim again, you should see the message "MY VIMRC LOADED" in the terminal.
 
 4. Add your customized settings in .vimrc
