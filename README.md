@@ -5,7 +5,7 @@
 
 ### How to use (Arch Linux)?
 1. download this repo.
-2. directly create a soft link, following create a softlink of `.vimrc` file in this repo to `home` directory
+2. directly create a soft link, following code will create a softlink of `.vimrc` file in this repo to `home` directory
 
     ```
     cd
