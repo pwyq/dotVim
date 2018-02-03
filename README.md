@@ -1,9 +1,20 @@
 ## Customized vimrc
 
 > Author: Yanqing Wu  
-> OS: Ubuntu 16.04
+> OS: Ubuntu 16.04 & Arch Linux
 
-### How to use?
+### How to use (Arch Linux)?
+1. download this repo.
+2. directly create a soft link, following create a softlink of `.vimrc` file in this repo to `home` directory
+
+    ```
+    cd
+    ln -s ~/github/dotVim/.vimrc .
+    ```
+
+3. download `Vundle` plugin manager, then change the path to `Vundle.vim` in `.vimrc` file
+
+### How to use (Ubuntu)?
 
 Note:
 
