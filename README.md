@@ -4,7 +4,7 @@
 > OS: Ubuntu 16.04 & Arch Linux
 
 ### How to use (Arch Linux)?
-1. download this repo.
+1. download this repo. I downloaded to `~/github/`
 2. directly create a soft link, following code will create a softlink of `.vimrc` file in this repo to `home` directory
 
     ```
