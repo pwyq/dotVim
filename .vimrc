@@ -63,6 +63,21 @@ map <F4> :AddHeader<CR>
 inoremap jj <ESC>
 let mapleader = "," " remap `leader` key to `,` 
 
+" Indent 4 spaces
+filetype plugin indent on
+" show existing tab with 4 spaces width
+set tabstop=4
+" when indenting with '>', use 4 spaces width
+set shiftwidth=4
+" On pressing tab, insert 4 spaces
+set expandtab
+
+" de-tab (Vim built-in: ctrl-t for tab, ctrl-d for de-tab)
+" for command mode
+nnoremap <S-Tab> <<
+" for insert mode
+inoremap <S-Tab> <C-d>
+
 func! WordProcessorMode()
     setlocal formatoptions=t1
     setlocal textwidth=80
