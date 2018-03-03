@@ -59,6 +59,15 @@ map <F4> :AddHeader<CR>
 
 :set number " enable line number displaying.
 
+" modify indent space, smartindent is depracated
+filetype plugin indent on
+" show existing tab with 4 spaces width
+set tabstop=4
+" when indenting with '>', use 4 spaces width
+set shiftwidth=4
+" On pressing tab, insert 4 spaces
+set expandtab
+
 " remap ESC key to jj
 inoremap jj <ESC>
 let mapleader = "," " remap `leader` key to `,` 
@@ -68,7 +77,7 @@ func! WordProcessorMode()
     setlocal textwidth=80
     map j gj
     map k gk
-    setlocal smartindent
+    " setlocal smartindent
     setlocal spell spelllang=en_us
     setlocal noexpandtab
 endfu
