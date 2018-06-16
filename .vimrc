@@ -126,3 +126,6 @@ inoremap <expr> } ClosePair('}')
 au Filetype mkd,tex,txt,lrc silent! iunmap '
 au Filetype vim silent! iunmap "
 au Filetype vim silent! iunmap ""
+" ---------------------------------------------------------------------
+"  turn on syntax coloring
+syntax on
