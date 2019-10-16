@@ -1,7 +1,8 @@
 " File              : .vimrc
 " Author            : Yanqing Wu <meet.yanqing.wu@gmail.com>
-" Date              : 11.09.2017
-" Last Modified Date: 11.09.2017
+" Date              : 16.10.2019
+" Last Modified Date: 16.10.2019
+" Last Modified By  : Yanqing Wu <meet.yanqing.wu@gmail.com>
 " Personal Customized vimrc
 
 set nocompatible              " be iMproved, required
@@ -10,7 +11,7 @@ filetype off                  " required
 " ---------------------------------------------------------------------
 " Vundle Configurations
 " set the runtime path to include Vundle and initialize
-set rtp+=~/install/Vundle.vim
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')

@@ -1,3 +1,8 @@
+ File              : README.md
+ Author            : Yanqing Wu <meet.yanqing.wu@gmail.com>
+ Date              : 16.10.2019
+ Last Modified Date: 16.10.2019
+ Last Modified By  : Yanqing Wu <meet.yanqing.wu@gmail.com>
 ## Customized vimrc
 
 > Author: Yanqing Wu  
@@ -9,7 +14,7 @@
 
     ```
     cd
-    ln -s ~/github/dotVim/.vimrc .
+    ln -s ~/github/dotVim/vim_setup/.vimrc .
     ```
 
 3. download `Vundle` plugin manager (link is available at the bottom), then change the path to `Vundle.vim` in `.vimrc` file
