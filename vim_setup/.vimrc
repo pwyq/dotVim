@@ -24,6 +24,8 @@ Plugin 'VundleVim/Vundle.vim'
 " plugin on GitHub repo
 Plugin 'alpertuna/vim-header'
 
+Plugin 'ycm-core/YouCompleteMe'
+
 " Git plugin not hosted on GitHub
 " Plugin 'git://git.wincent.com/command-t.git'
 " git repos on your local machine (i.e. when working on your own plugin)
@@ -55,6 +57,9 @@ filetype plugin indent on    " required
 let g:header_field_author = 'Yanqing Wu'
 let g:header_field_author_email = 'meet.yanqing.wu@gmail.com'
 map <F4> :AddHeader<CR>
+
+" YCM
+let g:ycm_use_clangd = 0
 
 " ---------------------------------------------------------------------
 

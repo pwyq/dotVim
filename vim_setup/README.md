@@ -67,6 +67,7 @@ Before proceeding, please make sure you have installed `vim`.
 > pros:  
 > update configured plugins automatically  
 > keep track of configure plugins in `.vimrc`  
+> I USE THIS ONE. JUST INSTALL ALL PLUGINs on `~/.vim/bundle`
 
 [vim-plug](https://github.com/junegunn/vim-plug)
 
