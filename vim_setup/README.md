@@ -1,8 +1,3 @@
- File              : README.md
- Author            : Yanqing Wu <meet.yanqing.wu@gmail.com>
- Date              : 16.10.2019
- Last Modified Date: 16.10.2019
- Last Modified By  : Yanqing Wu <meet.yanqing.wu@gmail.com>
 ## Customized vimrc
 
 > Author: Yanqing Wu  
