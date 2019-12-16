@@ -1,3 +1,9 @@
+#!/bin/bash
+# File              : update_hosts.sh
+# Author            : Yanqing Wu <meet.yanqing.wu@gmail.com>
+# Date              : 03.11.2019
+# Last Modified Date: 03.11.2019
+# Last Modified By  : Yanqing Wu <meet.yanqing.wu@gmail.com>
 HOST_BLOCK_URL='https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts'
 HOST_FILENAME='hosts'
 CUSTOM_HOST='custom_hosts'

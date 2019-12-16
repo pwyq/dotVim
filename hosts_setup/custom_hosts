@@ -1,8 +1,23 @@
 # News / BBS
+0.0.0.0 tieba.baidu.com
+0.0.0.0 club.6parkbbs.com
+0.0.0.0 zh.moegirl.org
+0.0.0.0 moegirl.org
+0.0.0.0 qq.com
+0.0.0.0 108.qq.com
+0.0.0.0 tgideas.qq.com
+0.0.0.0 game.qq.com
+0.0.0.0 mv.6parkbbs.com
+0.0.0.0 6parkbbs.com
+0.0.0.0 cn411.ca
+0.0.0.0 6park.com
 0.0.0.0 guancha.cn
 0.0.0.0 www.guancha.cn
 0.0.0.0 6parknews.com
+0.0.0.0 www.6park.com/fr.shtml
+0.0.0.0 https://www.6park.com/fr.shtml
 0.0.0.0 bbs.ngacn.cc
+0.0.0.0 pincong.rocks
 0.0.0.0 nga.cn
 0.0.0.0 ngacn.cc
 0.0.0.0 app.nga.cn
@@ -22,14 +37,16 @@
 0.0.0.0 bbs.saraba1st.com
 0.0.0.0 bbs.hupu.com
 0.0.0.0 saraba1st.com
-0.0.0.0 6park.com
-0.0.0.0 web.6parkbbs.com
 0.0.0.0 www.saraba1st.com/2b/forum.php
 0.0.0.0 saraba1st.com/2b/forum.php
 0.0.0.0 static.saraba1st.com
 0.0.0.0 avatar.saraba1st.com
 0.0.0.0 www.saraba1st.com
 0.0.0.0 img.saraba1st.com
+0.0.0.0 scboy.com
+0.0.0.0 www.scboy.com
+0.0.0.0 bbs.tgfcer.com
+0.0.0.0 sserr.net
 
 # Video
 0.0.0.0 bilibili.com
