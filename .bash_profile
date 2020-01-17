@@ -1,0 +1,1 @@
+/home/pwyq/.bash_profile

@@ -1,7 +1,7 @@
 " File              : .vimrc
 " Author            : Yanqing Wu <meet.yanqing.wu@gmail.com>
 " Date              : 16.10.2019
-" Last Modified Date: 16.10.2019
+" Last Modified Date: 17.01.2020
 " Last Modified By  : Yanqing Wu <meet.yanqing.wu@gmail.com>
 " Personal Customized vimrc
 
@@ -25,6 +25,10 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'alpertuna/vim-header'
 
 Plugin 'ycm-core/YouCompleteMe'
+
+Plugin 'jceb/vim-orgmode'
+
+Plugin 'tpope/vim-repeat'
 
 " Git plugin not hosted on GitHub
 " Plugin 'git://git.wincent.com/command-t.git'
@@ -51,6 +55,14 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+" ---------------------------------------------------------------------
+"Run following in Vim
+":source %
+":PluginInstall
+packloadall
+silent! helptags ALL
+" ---------------------------------------------------------------------
 
 " ---------------------------------------------------------------------
 " Add bried author info for `alpertuna/vim-header`
