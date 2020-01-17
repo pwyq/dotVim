@@ -69,6 +69,10 @@ Before proceeding, please make sure you have installed `vim`.
 > keep track of configure plugins in `.vimrc`  
 > I USE THIS ONE. JUST INSTALL ALL PLUGINs on `~/.vim/bundle`
 
+- To install new plugin using `Vundle`:
+    - add `Plugin 'github_user/name_of_the_plugin` in `.vimrc`
+    - stay in Vim, do `:source %` and `PluginInstall`
+
 [vim-plug](https://github.com/junegunn/vim-plug)
 
 > A plugin manager (I haven't use it, but this one seems older than other two)

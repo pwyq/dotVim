@@ -28,7 +28,14 @@ Plugin 'ycm-core/YouCompleteMe'
 
 Plugin 'jceb/vim-orgmode'
 
+Plugin 'vim-scripts/utl.vim'
 Plugin 'tpope/vim-repeat'
+Plugin 'vim-scripts/taglist.vim'
+Plugin 'majutsushi/tagbar'
+Plugin 'tpope/vim-speeddating'
+Plugin 'chrisbra/NrrwRgn'
+Plugin 'mattn/calendar-vim'
+Plugin 'inkarkat/vim-SyntaxRange'
 
 " Git plugin not hosted on GitHub
 " Plugin 'git://git.wincent.com/command-t.git'
