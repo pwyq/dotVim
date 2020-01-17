@@ -11,9 +11,7 @@ cd translate-shell/
 make
 sudo make install
 
-cd ~/.vim/bundle
-git clone git@github.com:ycm-core/YouCompleteMe.git
-# Vim-orgmode
-# Install guide:
-# https://vimawesome.com/plugin/vim-orgmode
-git clone git@github.com:jceb/vim-orgmode.git
+# for vim-orgmode
+sudo apt-get install exuberant-ctags
+mkdir ~/org
+touch ~/org/index.org

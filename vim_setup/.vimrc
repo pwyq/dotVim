@@ -154,3 +154,6 @@ au Filetype vim silent! iunmap ""
 " ---------------------------------------------------------------------
 "  turn on syntax coloring
 syntax on
+filetype plugin on
+" let g:org_agenda_files = split(glob("~/org/*.org"), "\n")
+let g:org_agenda_files = ['~/org/*.org']
