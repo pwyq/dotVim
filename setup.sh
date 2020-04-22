@@ -18,3 +18,7 @@ sudo apt-get install curl
 sudo apt-get install exuberant-ctags
 mkdir ~/org
 touch ~/org/index.org
+
+
+./setup-bashrc.sh
+./hosts_setup/setup-hosts.sh
