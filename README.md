@@ -1,6 +1,6 @@
 # README
 
-My own unix work station set up, including:  
+My own `unix` work station set up, including:  
 - block hosts update
 - vimrc
 

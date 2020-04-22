@@ -11,6 +11,9 @@ cd translate-shell/
 make
 sudo make install
 
+# install curl
+sudo apt-get install curl
+
 # for vim-orgmode
 sudo apt-get install exuberant-ctags
 mkdir ~/org

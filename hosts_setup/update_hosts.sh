@@ -12,6 +12,7 @@ head -10 /etc/hosts > $HOST_FILENAME
 
 # awk is 1-based
 cat $CUSTOM_HOST | awk '{split($0,tmp," "); if (tmp[1] ~/0.0.0.0/) print tmp[1] " " tmp[2];}' >> $HOST_FILENAME
+echo $HOST_BLOCK_URL
 curl $HOST_BLOCK_URL | awk '{split($0,tmp," "); if (tmp[1] ~/0.0.0.0/) print tmp[1] " " tmp[2];}' >> $HOST_FILENAME
 
 mv $HOST_FILENAME /etc/

@@ -9,7 +9,7 @@
 
     ```
     cd
-    ln -s ~/github/dotVim/vim_setup/.vimrc .
+    ln -s <absolute path to this vimrc> .
     ```
 
 3. download `Vundle` plugin manager (link is available at the bottom), then change the path to `Vundle.vim` in `.vimrc` file
