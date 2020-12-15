@@ -1,7 +1,7 @@
 ## Customized vimrc
 
 > Author: Yanqing Wu  
-> Tested OS: Ubuntu 16.04 & Arch Linux
+> Tested OS: Ubuntu 16.04/20.04 & Arch Linux
 
 ### How to use (Arch Linux)?
 1. download this repo. I downloaded to `~/github/`

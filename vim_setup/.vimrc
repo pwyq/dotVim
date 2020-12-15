@@ -1,7 +1,7 @@
 " File              : .vimrc
 " Author            : Yanqing Wu <meet.yanqing.wu@gmail.com>
 " Date              : 16.10.2019
-" Last Modified Date: 17.01.2020
+" Last Modified Date: 15.12.2020
 " Last Modified By  : Yanqing Wu <meet.yanqing.wu@gmail.com>
 " Personal Customized vimrc
 
@@ -22,12 +22,10 @@ Plugin 'VundleVim/Vundle.vim'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
-Plugin 'alpertuna/vim-header'
 
+" Plugin 'alpertuna/vim-header'
 Plugin 'ycm-core/YouCompleteMe'
-
 Plugin 'jceb/vim-orgmode'
-
 Plugin 'vim-scripts/utl.vim'
 Plugin 'tpope/vim-repeat'
 Plugin 'vim-scripts/taglist.vim'
@@ -36,6 +34,7 @@ Plugin 'tpope/vim-speeddating'
 Plugin 'chrisbra/NrrwRgn'
 Plugin 'mattn/calendar-vim'
 Plugin 'inkarkat/vim-SyntaxRange'
+Plugin 'tpope/vim-commentary'
 
 " Git plugin not hosted on GitHub
 " Plugin 'git://git.wincent.com/command-t.git'
@@ -60,7 +59,6 @@ filetype plugin indent on    " required
 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
 "
-" see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
 " ---------------------------------------------------------------------
